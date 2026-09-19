@@ -1,0 +1,1226 @@
+{
+ "subtitle": "Italiensk Restaurant · Lüneburg",
+ "footer": "Priser inkl. betjening og moms · Fortæl os venligst om allergier.",
+ "allergen_label": "Allergener",
+ "categories": [
+  {
+   "name": "Aperitif",
+   "items": [
+    {
+     "name": "Buona Sera",
+     "desc": "En brusende og forfriskende husaperitif efter hemmelig opskrift.",
+     "allergens": "1,N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Crodino / SanBitter",
+     "desc": "Italiensk alkoholfri aperitif, behageligt bitter med citrusnoter.",
+     "allergens": "1",
+     "price": "0,1 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Prosecco",
+     "desc": "Italiensk mousserende vin, let, elegant og perfekt kølet.",
+     "allergens": "N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Bacio Veneziano",
+     "desc": "Prosecco med fersken-aroma, sødt og forfriskende.",
+     "allergens": "N",
+     "price": "0,1 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Aperol Spritz",
+     "desc": "En tidløs klassiker: Aperol, Prosecco og danskvand på is.",
+     "allergens": "1,N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Hugo",
+     "desc": "Prosecco med hyldeblomstsirup og frisk mynte.",
+     "allergens": "N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Martini",
+     "desc": "Vælg din stil — Bianco, Rosso eller Dry.",
+     "allergens": "N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Campari",
+     "desc": "Den italienske legende, ren, med sodavand eller et skvæt appelsinjuice.",
+     "allergens": "1,N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Campari Spritz",
+     "desc": "En livlig mix af Campari, Prosecco og danskvand.",
+     "allergens": "1,N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Antipasti (Forretter)",
+   "items": [
+    {
+     "name": "1. Piccolo Antipasto Misto",
+     "desc": "Et lille udvalg af kolde blandede forretter fra vores montre.",
+     "allergens": "1,3,N",
+     "price": "9,90 €",
+     "tags": ""
+    },
+    {
+     "name": "2. Vitello Tonnato",
+     "desc": "Tyndt skåret kalvekød med cremet tunsauce.",
+     "allergens": "C,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "3. Carpaccio di Carne",
+     "desc": "Oksekødscarpaccio på rucola, marineret i citronolivenolie, toppet med parmesanspåner.",
+     "allergens": "",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "4. Caprese con Burrata",
+     "desc": "Burrata med oregano, cherrytomater, basilikum og olivenolie.",
+     "allergens": "D,N",
+     "price": "14,50 €",
+     "tags": ""
+    },
+    {
+     "name": "5. Rinder Tartar",
+     "desc": "Nytilberedt tatar af oksefilet (tilberedningstid ca. 20 minutter).",
+     "allergens": "B",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "6. Formaggio Tartufato alla Griglia",
+     "desc": "Grillet trøffelost serveret med blandet salat og balsamicoeddike.",
+     "allergens": "D",
+     "price": "14,50 €",
+     "tags": ""
+    },
+    {
+     "name": "7. Bruschetta Tradizionale",
+     "desc": "Sprødt pizzabrød toppet med hvidløg, friske tomater, løg og olivenolie.",
+     "allergens": "A",
+     "price": "10,50 €",
+     "tags": ""
+    },
+    {
+     "name": "8. Bruschetta Verde",
+     "desc": "Sprødt pizzabrød med friske tomater, rucola, mozzarella og olivenolie.",
+     "allergens": "D",
+     "price": "11,50 €",
+     "tags": ""
+    },
+    {
+     "name": "9. Provola al Forno",
+     "desc": "Ostspecialitet fra ovnen.",
+     "allergens": "D,1,3",
+     "price": "11,90 €",
+     "tags": ""
+    },
+    {
+     "name": "10. Scampetti Gratinati",
+     "desc": "Gratinerede rejer med krydderurter, parmesan og olivenolie.",
+     "allergens": "A,K,1",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "11. Antipasto Misto",
+     "desc": "Koldt blandet udvalg af forretter fra vores montre.",
+     "allergens": "D,N,1,3",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "16. Carpaccio di Polpo",
+     "desc": "Blæksprutte-carpaccio med olivenolie og krydderurter.",
+     "allergens": "K,3",
+     "price": "17,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Zuppe (Supper)",
+   "items": [
+    {
+     "name": "13. Zuppa di Pomodoro",
+     "desc": "Klassisk italiensk tomatsuppe.",
+     "allergens": "D,3",
+     "price": "6,90 €",
+     "tags": ""
+    },
+    {
+     "name": "14. Zuppa di Porcini",
+     "desc": "Cremet karl johan-svampesuppe.",
+     "allergens": "D",
+     "price": "7,90 €",
+     "tags": ""
+    },
+    {
+     "name": "15. Zuppa di Broccoli e Noci",
+     "desc": "Cremet broccolisuppe med valnødder.",
+     "allergens": "D",
+     "price": "7,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Insalate (Salater)",
+   "items": [
+    {
+     "name": "17. Insalata Buona Sera",
+     "desc": "Stor blandet husets salat med varierede friske ingredienser.",
+     "allergens": "B,D,N,1,3,6,10",
+     "price": "12,50 €",
+     "tags": ""
+    },
+    {
+     "name": "18. Insalata Primavera",
+     "desc": "Rucolasalat med tomater og bøffelmozzarella.",
+     "allergens": "D,N,3",
+     "price": "12,50 €",
+     "tags": ""
+    },
+    {
+     "name": "19. Insalata con Rucola e Petto di Pollo",
+     "desc": "Salat med grillet kyllingebryst, champignoner og tomater.",
+     "allergens": "D,N,3",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "20. Insalata di Rucola",
+     "desc": "Rucola med friske champignoner og parmesanspåner.",
+     "allergens": "D,N",
+     "price": "11,90 €",
+     "tags": ""
+    },
+    {
+     "name": "21. Insalata di Tonno",
+     "desc": "Blandet salat med tun, æg og løg.",
+     "allergens": "B,C,N,1,3",
+     "price": "10,90 €",
+     "tags": ""
+    },
+    {
+     "name": "22. Insalata Rustica",
+     "desc": "Agurk, tomat, salat, feta, løg og oliver.",
+     "allergens": "1,3,D,N",
+     "price": "10,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Risotti",
+   "items": [
+    {
+     "name": "24. Risotto alla Pescatora",
+     "desc": "Traditionel italiensk risret med blandet skaldyr.",
+     "allergens": "C,K",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "26. Risotto ai Funghi",
+     "desc": "Cremet risotto med en blanding af svampe.",
+     "allergens": "D",
+     "price": "16,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta Specialità",
+   "items": [
+    {
+     "name": "25. Tagliolini Mamma Mia",
+     "desc": "Frisk tynd båndpasta med rejer, cherrytomater og rucola.",
+     "allergens": "A,K",
+     "price": "17,90 €",
+     "tags": ""
+    },
+    {
+     "name": "28. Pappardelle Buona Sera",
+     "desc": "Bred båndpasta med oksefiletspidser i cremet karl johan-sauce.",
+     "allergens": "A,D",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "29. Tagliolini al Sapore di Mare",
+     "desc": "Tynd båndpasta med blandet skaldyr og cherrytomater.",
+     "allergens": "A,C",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "31. Ravioli ai Porcini",
+     "desc": "Fyldt med karl johan-svampe i cremet tomat- og champignonsauce.",
+     "allergens": "A,D",
+     "price": "17,50 €",
+     "tags": ""
+    },
+    {
+     "name": "32. Ravioli con Gorgonzola e Noci",
+     "desc": "Fyldt med valnødder og gorgonzola i cremet salviesauce.",
+     "allergens": "A,D,L",
+     "price": "18,50 €",
+     "tags": ""
+    },
+    {
+     "name": "33. Ravioli Ricotta e Spinaci",
+     "desc": "Hjemmelavede ravioli fyldt med ricotta og spinat i tomatsauce.",
+     "allergens": "A,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "34. Tortelloni Panna Prosciutto e Funghi",
+     "desc": "Tortelloni fyldt med kød i cremet sauce med skinke og champignoner.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "35. Gnocchi Sorrento",
+     "desc": "Gnocchi i tomatsauce med cherrytomater, basilikum og smeltet mozzarella.",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "36. Cavatelli e Orecchiette al Culatello",
+     "desc": "Pasta i smør-trøffelsauce med Culatello-skinke og cherrytomater.",
+     "allergens": "A,D,3",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "37. Cavatelli e Orecchiette con Broccoli e Salsiccia",
+     "desc": "Pasta med broccoli og italiensk pølse.",
+     "allergens": "A,D,3",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "38. Gnocchi alla Bietola con Salmone",
+     "desc": "Rødbedegnocchi med laks.",
+     "allergens": "A,C,D",
+     "price": "17,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta Classica",
+   "items": [
+    {
+     "name": "40. Penne Portofino",
+     "desc": "Frisk penne med bolognese, basilikumpesto, parmesan og pinjekerner.",
+     "allergens": "A,D,L",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "42. Penne al Salmone",
+     "desc": "Med laks i let cremesauce og frisk rucola.",
+     "allergens": "A,C,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "43. Spaghetti alle Vongole",
+     "desc": "Med muslinger, olivenolie og cherrytomater.",
+     "allergens": "A,K,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "44. Spaghetti ai Gamberi e Limone",
+     "desc": "Black Tiger-rejer i cremet citronsauce.",
+     "allergens": "A,D,K,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "45. Spaghetti Aglio Olio e Peperoncino",
+     "desc": "I olivenolie med hvidløg, cherrytomater og chiliflager.",
+     "allergens": "A",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "46. Spaghetti alla Carbonara",
+     "desc": "Med sprød pancetta og æg, tilberedt på traditionel italiensk måde uden fløde.",
+     "allergens": "A,B,3",
+     "price": "16,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Specialità al forno (Ovnbagt)",
+   "items": [
+    {
+     "name": "50. Lasagne",
+     "desc": "Traditionel lasagne med bolognese- og bechamelsauce, gratineret med mozzarella.",
+     "allergens": "A,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "51. Cannelloni Ripieni con Spinaci",
+     "desc": "Pastaruller fyldt med ricotta og spinat i tomat-bechamelsauce, gratineret med mozzarella.",
+     "allergens": "A,D",
+     "price": "16,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta al Tartufo fresco (Frisk trøffel)",
+   "items": [
+    {
+     "name": "337. Taglioline al Tartufo",
+     "desc": "Tynd båndpasta i smør med frisk trøffel.",
+     "allergens": "D",
+     "price": "21,90 €",
+     "tags": ""
+    },
+    {
+     "name": "338. Taglioline al Tartufo con Salvia e Noce",
+     "desc": "Tynd båndpasta i smør med salvie, valnødder og frisk trøffel.",
+     "allergens": "D,L",
+     "price": "23,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pizze cotte su pietra (Stenbagt pizza)",
+   "items": [
+    {
+     "name": "80. Pizza alla Margherita",
+     "desc": "Med hjemmelavet tomatsauce og mozzarella.",
+     "allergens": "A,D",
+     "price": "11,50 €",
+     "tags": ""
+    },
+    {
+     "name": "81. Pizza al Salame",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella og salami.",
+     "allergens": "A,D,3,6",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "82. Pizza al Prosciutto",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella og kogt skinke.",
+     "allergens": "A,D,3,6,10",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "83. Pizza ai Funghi",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella og friske champignoner.",
+     "allergens": "A,D",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "84. Pizza Capricciosa",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, kogt skinke, artiskokker, champignoner og oliver.",
+     "allergens": "A,D,1,3,6,10",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "85. Pizza Pazza",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, salami, løg, friske champignoner, kapers og stærk peberfrugt.",
+     "allergens": "A,D,1,3,6",
+     "price": "15,90 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "86. Pizza con Tonno e Cipolla",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, tun og løg.",
+     "allergens": "A,C,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "87. Pizza alla Alex",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, champignoner, løg, æggeblomme og stærk peberfrugt.",
+     "allergens": "A,B,D,3,6,10",
+     "price": "15,90 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "88. Pizza Quattro Stagioni",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, kogt skinke, salami, champignoner, peberfrugt og tun.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "89. Pizza ai Prati Verdi",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, gorgonzola og spinat.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "90. Pizza alla Gaetano",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, kogt skinke, ansjoser, kapers, friske tomatskiver og basilikum.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "91. Pizza ai Frutti di Mare",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, skaldyr og hvidløg.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "92. Pizza Frà Diavolo al Salamino",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, hvidløg, løg, stærk peberfrugt og stærk salami.",
+     "allergens": "A,D,3,6",
+     "price": "16,50 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "93. Pizza alla Buona Sera",
+     "desc": "Med hjemmelavet tomatsauce, bøffelmozzarella, gorgonzola, ricotta, San Daniele-skinke, Culatello og friske cherrytomater.",
+     "allergens": "A,D,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "94. Pizza Vegetariana",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, broccoli, spinat, artiskokker og aubergine.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": "vegetarian"
+    },
+    {
+     "name": "95. Pizza con Scampi",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, hvidløg, løg og scampi.",
+     "allergens": "A,D,K",
+     "price": "17,50 €",
+     "tags": ""
+    },
+    {
+     "name": "96. Pizza Rucola",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, rucola og parmesanspåner, med et strejf balsamico.",
+     "allergens": "A,D,N",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "97. Pizza Hawaii",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, kogt skinke og ananas.",
+     "allergens": "A,D,3,6,10",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "98. Pizza ai Quattro Formaggi",
+     "desc": "Med hjemmelavet tomatsauce og fire oste (mozzarella, ricotta, gorgonzola, parmesan).",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "99. Pizza alla Greca",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, spinat, peberfrugt, løg og feta.",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "100. Pizza Primavera",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, friske tomatskiver og basilikum.",
+     "allergens": "A,D",
+     "price": "13,90 €",
+     "tags": ""
+    },
+    {
+     "name": "101. Pizza San Daniele",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella og San Daniele-skinke.",
+     "allergens": "A,D,3",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "102. Pizza Bufala e Culatello",
+     "desc": "Med hjemmelavet tomatsauce, bøffelmozzarella og Culatello (luftaftørret skinke).",
+     "allergens": "A,D,3",
+     "price": "17,90 €",
+     "tags": ""
+    },
+    {
+     "name": "103. Pizza con Spinaci e Ricotta",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, spinat og ricotta.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Calzone",
+   "items": [
+    {
+     "name": "104. Calzone Gran Sasso",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, salami, champignoner og broccoli.",
+     "allergens": "A,D,3,6",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "106. Calzone Levante",
+     "desc": "Med hjemmelavet tomatsauce, mozzarella, skinke, champignoner, peberfrugt og oliver.",
+     "allergens": "A,D,1,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Scaloppine di Vitello e Pollo (Kalv og Kylling)",
+   "items": [
+    {
+     "name": "110. Scaloppine a Piacere",
+     "desc": "Kalvemedaljoner i valgfri sauce: hvidvin, citron eller Marsalavin. + Tilbehør.",
+     "allergens": "A,N",
+     "price": "26,90 €",
+     "tags": ""
+    },
+    {
+     "name": "112. Saltimbocca alla Romana",
+     "desc": "Kalvemedaljoner med San Daniele-skinke i salvie- og hvidvinssauce. + Tilbehør.",
+     "allergens": "A,N",
+     "price": "27,90 €",
+     "tags": ""
+    },
+    {
+     "name": "113. Paillard alla Griglia con Scaglie di Parmigiano",
+     "desc": "Grillet kalveschnitzel på rucolabund med parmesanspåner og balsamicocreme. Tilbehør: rosmarinkartofler.",
+     "allergens": "D",
+     "price": "26,50 €",
+     "tags": ""
+    },
+    {
+     "name": "114. Petto di Pollo alla Griglia",
+     "desc": "Grillet kyllingebryst. + Tilbehør.",
+     "allergens": "",
+     "price": "19,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Manzo (Oksekød)",
+   "items": [
+    {
+     "name": "116. Filetto ai Funghi 200 g",
+     "desc": "Oksefilet med blandet svamp i cremet sauce. + Tilbehør.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "117. Filetto al Pepe Verde 200 g",
+     "desc": "Oksefilet i grøn pebersauce. + Tilbehør.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "118. Filetto al Gorgonzola 200 g",
+     "desc": "Oksefilet i gorgonzolasauce. + Tilbehør.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "139. Filetto alla Griglia 200 g",
+     "desc": "Grillet oksefilet. + Tilbehør.",
+     "allergens": "",
+     "price": "28,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pesce (Fisk)",
+   "items": [
+    {
+     "name": "120. Frittura di Scampi e Calamari",
+     "desc": "Friterede scampi og blæksprutteringe. + Salat som tilbehør.",
+     "allergens": "A,C,K",
+     "price": "24,50 €",
+     "tags": ""
+    },
+    {
+     "name": "121. Calamari alla Griglia",
+     "desc": "Grillet blæksprutte med hvidløg og olivenolie. + Salat som tilbehør.",
+     "allergens": "C,K",
+     "price": "20,90 €",
+     "tags": ""
+    },
+    {
+     "name": "123. Calamari alla Livornese",
+     "desc": "Blæksprutte med kapers, oliver og krydderurter i tomatsauce. + Salat som tilbehør.",
+     "allergens": "C,1,K,10",
+     "price": "21,90 €",
+     "tags": ""
+    },
+    {
+     "name": "124. Gamberoni alla Griglia",
+     "desc": "Fire store grillede rejer (med hoved og skal). + Salat som tilbehør.",
+     "allergens": "K",
+     "price": "30,50 €",
+     "tags": ""
+    },
+    {
+     "name": "127. Gamberoni in Salsa Aioli",
+     "desc": "Scampi sauteret i cremet hvidløgssauce. + Salat som tilbehør.",
+     "allergens": "K,3",
+     "price": "26,90 €",
+     "tags": ""
+    },
+    {
+     "name": "128. Filetto di Rombo Gratinato in Camicia",
+     "desc": "Pighvarfilet gratineret med kartoffelskorpe. + Salat som tilbehør.",
+     "allergens": "C,3",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "130. Grigliata di Pesce Misto",
+     "desc": "Blandet grillet fisketallerken med havrudefilet, blæksprutte og scampi. + Salat og kartofler.",
+     "allergens": "C,K,3",
+     "price": "33,90 €",
+     "tags": ""
+    },
+    {
+     "name": "131. Salmone alla Mediterranea",
+     "desc": "Laksefilet i urte- og hvidvinssauce med kapers og cherrytomater. + Salat og kartofler.",
+     "allergens": "C,D",
+     "price": "28,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Dolci (Desserter)",
+   "items": [
+    {
+     "name": "241. Tartufo",
+     "desc": "Chokolade- og zabaioneis med kakaopulver.",
+     "allergens": "D,L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "243. Tiramisù",
+     "desc": "Kaffevædede lady fingers med mascarponecreme og kakao.",
+     "allergens": "A,D",
+     "price": "8,90 €",
+     "tags": ""
+    },
+    {
+     "name": "244. Cassata Siciliana",
+     "desc": "Siciliansk halvfrossen dessert med is og flødeskum.",
+     "allergens": "D",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "245. Pannacotta",
+     "desc": "Hjemmelavet vaniljecremepudding med karamelsauce.",
+     "allergens": "D",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "246. Crème Brûlée alla Noce di Cocco",
+     "desc": "Kokosnød-crème brûlée med karameliseret sukkerskorpe.",
+     "allergens": "L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "247. Soufflé al Cioccolato",
+     "desc": "Varm chokoladesoufflé.",
+     "allergens": "B,D,L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "248. Nougat Tiramisù",
+     "desc": "Tiramisù med mascarpone-nougatcreme.",
+     "allergens": "A,D,L",
+     "price": "8,90 €",
+     "tags": ""
+    },
+    {
+     "name": "249. Affogato",
+     "desc": "Espresso serveret med en kugle vaniljeis.",
+     "allergens": "D",
+     "price": "6,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Bevande Calde (Varme drikke)",
+   "items": [
+    {
+     "name": "Espresso",
+     "desc": "Espresso.",
+     "allergens": "",
+     "price": "3,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Coffee",
+     "desc": "Filterkaffe.",
+     "allergens": "",
+     "price": "3,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Tea (various sorts)",
+     "desc": "Te (forskellige typer).",
+     "allergens": "",
+     "price": "3,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Affogato",
+     "desc": "Espresso med en kugle is.",
+     "allergens": "D",
+     "price": "6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Cappuccino",
+     "desc": "Cappuccino.",
+     "allergens": "D",
+     "price": "4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Latte Macchiato",
+     "desc": "Latte macchiato.",
+     "allergens": "D",
+     "price": "4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Corretto Amaretto",
+     "desc": "Espresso med amaretto.",
+     "allergens": "",
+     "price": "4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Espresso Doppio",
+     "desc": "Dobbelt espresso.",
+     "allergens": "",
+     "price": "5,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Succhi di Frutta (Juice)",
+   "items": [
+    {
+     "name": "Orange Juice",
+     "desc": "Appelsinjuice.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Apple Juice",
+     "desc": "Æblejuice.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Passion Fruit Nectar",
+     "desc": "Passionsfrugtnektar.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Banana Nectar",
+     "desc": "Banannektar.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Cherry Nectar",
+     "desc": "Kirsebærnektar.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Spritzers (Apple / Orange / Passion Fruit / Cherry / Rhubarb)",
+     "desc": "Frugtsodavand (æble, appelsin, passionsfrugt, kirsebær, rabarber).",
+     "allergens": "",
+     "price": "0,2 l 2,90 € · 0,4 l 4,80 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Birra (Øl)",
+   "items": [
+    {
+     "name": "Angelo Poretti",
+     "desc": "Italiensk fadøl.",
+     "allergens": "A",
+     "price": "0,25 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Carlsberg",
+     "desc": "Fadøl.",
+     "allergens": "A",
+     "price": "0,3 l 4,50 € · 0,5 l 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Hefe Weizen Duckstein",
+     "desc": "Hvedeøl på fad.",
+     "allergens": "A",
+     "price": "0,3 l 4,50 € · 0,5 l 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Alsterwasser",
+     "desc": "Øl-limonademiks.",
+     "allergens": "A",
+     "price": "0,3 l 4,00 € · 0,5 l 6,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Peroni (bottled)",
+     "desc": "Italiensk flaskeøl.",
+     "allergens": "A",
+     "price": "0,33 l · 4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Non-Alcoholic Wheat Beer",
+     "desc": "Alkoholfri hvedeøl.",
+     "allergens": "A",
+     "price": "0,5 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Dark Wheat Beer",
+     "desc": "Mørk hvedeøl.",
+     "allergens": "A",
+     "price": "0,5 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Holsten Non-Alcoholic",
+     "desc": "Alkoholfri øl.",
+     "allergens": "A",
+     "price": "0,33 l · 4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Malt Beer",
+     "desc": "Maltøl.",
+     "allergens": "A",
+     "price": "0,33 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Bionade (Herbal / Elderflower)",
+     "desc": "Bionade urter/hyldeblomst.",
+     "allergens": "",
+     "price": "0,33 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "S. Pellegrino (small)",
+     "desc": "Lille flaske mineralvand.",
+     "allergens": "",
+     "price": "0,25 l · 3,50 €",
+     "tags": ""
+    },
+    {
+     "name": "S. Pellegrino (large)",
+     "desc": "Stor flaske mineralvand.",
+     "allergens": "",
+     "price": "0,75 l · 8,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Bevande Fredde (Kolde drikke)",
+   "items": [
+    {
+     "name": "Pepsi Cola",
+     "desc": "Pepsi Cola.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Pepsi Cola Zero",
+     "desc": "Pepsi Cola Zero.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Orange Soda",
+     "desc": "Appelsinsodavand.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Lemon Soda",
+     "desc": "Citronsodavand.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Spezi (Cola-Orange)",
+     "desc": "Spezi (cola-appelsinblanding).",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Bitter Lemon",
+     "desc": "Bitter lemon.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,30 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vini Rossi (Rødvin)",
+   "items": [
+    {
+     "name": "Negroamaro",
+     "desc": "Blødt og afbalanceret med let afslutning.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Syrah",
+     "desc": "Blødt og fyldigt med noter af modne bær.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Primitivo Salento",
+     "desc": "Tørt og fyldigt med god struktur.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Lambrusco",
+     "desc": "Sødt, perlende rødvin.",
+     "allergens": "N",
+     "price": "0,2 l 7,00 € · 0,5 l 13,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vini Bianchi (Hvidvin)",
+   "items": [
+    {
+     "name": "Frascati",
+     "desc": "Tørt og sprødt italiensk hvidvin.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Pinot Grigio",
+     "desc": "Tørt med delikat frugtig aroma.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Frizzantino",
+     "desc": "Sødt, let perlende hvidvin.",
+     "allergens": "N",
+     "price": "0,2 l 7,00 € · 0,5 l 13,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vino Rosato (Rosévin)",
+   "items": [
+    {
+     "name": "Rosato del Salento",
+     "desc": "Tørt og frugtigt.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Aquavino (Vinsprøjt)",
+   "items": [
+    {
+     "name": "Weinschorle",
+     "desc": "Hvid-, rosé- eller rødvin med danskvand.",
+     "allergens": "N",
+     "price": "0,2 l · 7,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Liquori e Distillati (Spiritus)",
+   "items": [
+    {
+     "name": "Amaretto",
+     "desc": "Amaretto.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Averna",
+     "desc": "Averna.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Amaro del Capo",
+     "desc": "Amaro del Capo.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Ramazzotti",
+     "desc": "Ramazzotti.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Montenegro",
+     "desc": "Montenegro.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Cynar",
+     "desc": "Cynar.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Fernet (Branca or Menta)",
+     "desc": "Fernet (Branca eller Menta).",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Bianca",
+     "desc": "Hvid grappa.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Reinsorte",
+     "desc": "Grappa af enkelt drueart.",
+     "allergens": "",
+     "price": "0,02 l · 5,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Spezial",
+     "desc": "Specialgrappa (fra).",
+     "allergens": "",
+     "price": "0,02 l · ab 6,90 €",
+     "tags": ""
+    },
+    {
+     "name": "Limoncello",
+     "desc": "Limoncello.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Sambuca",
+     "desc": "Sambuca.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Vecchia Romagna Brandy",
+     "desc": "Vecchia Romagna Brandy.",
+     "allergens": "",
+     "price": "0,02 l · 4,90 €",
+     "tags": ""
+    }
+   ]
+  }
+ ]
+}

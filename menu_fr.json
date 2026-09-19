@@ -1,0 +1,1226 @@
+{
+ "subtitle": "Restaurant Italien · Lüneburg",
+ "footer": "Prix service et TVA compris · Merci de nous signaler vos allergies.",
+ "allergen_label": "Allergènes",
+ "categories": [
+  {
+   "name": "Apéritifs",
+   "items": [
+    {
+     "name": "Buona Sera",
+     "desc": "Apéritif maison pétillant et rafraîchissant, préparé selon notre recette secrète.",
+     "allergens": "1,N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Crodino / SanBitter",
+     "desc": "L'apéritif italien sans alcool, agréablement amer avec des notes d'agrumes.",
+     "allergens": "1",
+     "price": "0,1 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Prosecco",
+     "desc": "Vin mousseux italien, léger, élégant et parfaitement frais.",
+     "allergens": "N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Bacio Veneziano",
+     "desc": "Prosecco parfumé à la pêche, doux et rafraîchissant.",
+     "allergens": "N",
+     "price": "0,1 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Aperol Spritz",
+     "desc": "Un classique intemporel : Aperol, Prosecco et eau gazeuse sur glace.",
+     "allergens": "1,N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Hugo",
+     "desc": "Prosecco mélangé à du sirop de fleur de sureau et à la menthe fraîche.",
+     "allergens": "N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Martini",
+     "desc": "Au choix : Bianco, Rosso ou Dry.",
+     "allergens": "N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Campari",
+     "desc": "La légende italienne, pur, avec du soda ou une touche de jus d'orange.",
+     "allergens": "1,N",
+     "price": "0,15 l · 7,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Campari Spritz",
+     "desc": "Un mélange vif de Campari, Prosecco et eau gazeuse.",
+     "allergens": "1,N",
+     "price": "0,2 l · 8,80 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Antipasti (Entrées)",
+   "items": [
+    {
+     "name": "1. Piccolo Antipasto Misto",
+     "desc": "Petite sélection d'antipasti froids variés de notre vitrine.",
+     "allergens": "1,3,N",
+     "price": "9,90 €",
+     "tags": ""
+    },
+    {
+     "name": "2. Vitello Tonnato",
+     "desc": "Fines tranches de veau nappées d'une crème au thon.",
+     "allergens": "C,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "3. Carpaccio di Carne",
+     "desc": "Carpaccio de bœuf sur roquette, mariné à l'huile d'olive citronnée, copeaux de parmesan.",
+     "allergens": "",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "4. Caprese con Burrata",
+     "desc": "Burrata à l'origan, tomates cerises, basilic et huile d'olive.",
+     "allergens": "D,N",
+     "price": "14,50 €",
+     "tags": ""
+    },
+    {
+     "name": "5. Rinder Tartar",
+     "desc": "Tartare de filet de bœuf préparé sur place (temps de préparation env. 20 min).",
+     "allergens": "B",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "6. Formaggio Tartufato alla Griglia",
+     "desc": "Fromage à la truffe grillé, servi avec une salade verte et vinaigre balsamique.",
+     "allergens": "D",
+     "price": "14,50 €",
+     "tags": ""
+    },
+    {
+     "name": "7. Bruschetta Tradizionale",
+     "desc": "Pain croustillant garni d'ail, tomates fraîches, oignons et huile d'olive.",
+     "allergens": "A",
+     "price": "10,50 €",
+     "tags": ""
+    },
+    {
+     "name": "8. Bruschetta Verde",
+     "desc": "Pain croustillant garni de tomates fraîches, roquette, mozzarella et huile d'olive.",
+     "allergens": "D",
+     "price": "11,50 €",
+     "tags": ""
+    },
+    {
+     "name": "9. Provola al Forno",
+     "desc": "Spécialité de fromage provola cuite au four.",
+     "allergens": "D,1,3",
+     "price": "11,90 €",
+     "tags": ""
+    },
+    {
+     "name": "10. Scampetti Gratinati",
+     "desc": "Crevettes gratinées aux herbes, parmesan et huile d'olive.",
+     "allergens": "A,K,1",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "11. Antipasto Misto",
+     "desc": "Sélection d'antipasti froids variés de notre vitrine.",
+     "allergens": "D,N,1,3",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "16. Carpaccio di Polpo",
+     "desc": "Carpaccio de poulpe à l'huile d'olive et aux herbes.",
+     "allergens": "K,3",
+     "price": "17,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Zuppe (Soupes)",
+   "items": [
+    {
+     "name": "13. Zuppa di Pomodoro",
+     "desc": "Soupe de tomates italienne classique.",
+     "allergens": "D,3",
+     "price": "6,90 €",
+     "tags": ""
+    },
+    {
+     "name": "14. Zuppa di Porcini",
+     "desc": "Velouté aux cèpes.",
+     "allergens": "D",
+     "price": "7,90 €",
+     "tags": ""
+    },
+    {
+     "name": "15. Zuppa di Broccoli e Noci",
+     "desc": "Velouté de brocolis aux noix.",
+     "allergens": "D",
+     "price": "7,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Insalate (Salades)",
+   "items": [
+    {
+     "name": "17. Insalata Buona Sera",
+     "desc": "Grande salade mixte maison avec des ingrédients frais variés.",
+     "allergens": "B,D,N,1,3,6,10",
+     "price": "12,50 €",
+     "tags": ""
+    },
+    {
+     "name": "18. Insalata Primavera",
+     "desc": "Salade de roquette, tomates et mozzarella di bufala.",
+     "allergens": "D,N,3",
+     "price": "12,50 €",
+     "tags": ""
+    },
+    {
+     "name": "19. Insalata con Rucola e Petto di Pollo",
+     "desc": "Salade au blanc de poulet grillé, champignons et tomates.",
+     "allergens": "D,N,3",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "20. Insalata di Rucola",
+     "desc": "Roquette avec champignons frais et copeaux de parmesan.",
+     "allergens": "D,N",
+     "price": "11,90 €",
+     "tags": ""
+    },
+    {
+     "name": "21. Insalata di Tonno",
+     "desc": "Salade mixte au thon, œuf et oignons.",
+     "allergens": "B,C,N,1,3",
+     "price": "10,90 €",
+     "tags": ""
+    },
+    {
+     "name": "22. Insalata Rustica",
+     "desc": "Concombre, tomate, laitue, feta, oignons et olives.",
+     "allergens": "1,3,D,N",
+     "price": "10,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Risotti",
+   "items": [
+    {
+     "name": "24. Risotto alla Pescatora",
+     "desc": "Risotto traditionnel aux fruits de mer.",
+     "allergens": "C,K",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "26. Risotto ai Funghi",
+     "desc": "Risotto crémeux aux champignons mélangés.",
+     "allergens": "D",
+     "price": "16,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta Specialità",
+   "items": [
+    {
+     "name": "25. Tagliolini Mamma Mia",
+     "desc": "Tagliolini frais aux crevettes, tomates cerises et roquette.",
+     "allergens": "A,K",
+     "price": "17,90 €",
+     "tags": ""
+    },
+    {
+     "name": "28. Pappardelle Buona Sera",
+     "desc": "Larges pappardelle avec pointes de filet de bœuf, sauce crémeuse aux cèpes.",
+     "allergens": "A,D",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "29. Tagliolini al Sapore di Mare",
+     "desc": "Tagliolini fins aux fruits de mer et tomates cerises.",
+     "allergens": "A,C",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "31. Ravioli ai Porcini",
+     "desc": "Raviolis farcis aux cèpes, sauce crémeuse tomate et champignons.",
+     "allergens": "A,D",
+     "price": "17,50 €",
+     "tags": ""
+    },
+    {
+     "name": "32. Ravioli con Gorgonzola e Noci",
+     "desc": "Farcis aux noix et gorgonzola, sauce crème et sauge.",
+     "allergens": "A,D,L",
+     "price": "18,50 €",
+     "tags": ""
+    },
+    {
+     "name": "33. Ravioli Ricotta e Spinaci",
+     "desc": "Raviolis maison à la ricotta et aux épinards, sauce tomate.",
+     "allergens": "A,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "34. Tortelloni Panna Prosciutto e Funghi",
+     "desc": "Tortelloni farcis à la viande, sauce crémeuse au jambon et champignons.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "35. Gnocchi Sorrento",
+     "desc": "Gnocchis en sauce tomate, tomates cerises, basilic et mozzarella fondue.",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "36. Cavatelli e Orecchiette al Culatello",
+     "desc": "Pâtes sauce beurre-truffe, jambon Culatello et tomates cerises.",
+     "allergens": "A,D,3",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "37. Cavatelli e Orecchiette con Broccoli e Salsiccia",
+     "desc": "Pâtes au brocoli et saucisse italienne.",
+     "allergens": "A,D,3",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "38. Gnocchi alla Bietola con Salmone",
+     "desc": "Gnocchis à la betterave rouge avec saumon.",
+     "allergens": "A,C,D",
+     "price": "17,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta Classica",
+   "items": [
+    {
+     "name": "40. Penne Portofino",
+     "desc": "Penne fraîches, bolognaise, pesto de basilic, parmesan et pignons de pin.",
+     "allergens": "A,D,L",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "42. Penne al Salmone",
+     "desc": "Au saumon, sauce crème légère et roquette fraîche.",
+     "allergens": "A,C,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "43. Spaghetti alle Vongole",
+     "desc": "Aux palourdes, huile d'olive et tomates cerises.",
+     "allergens": "A,K,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "44. Spaghetti ai Gamberi e Limone",
+     "desc": "Crevettes Black Tiger, sauce crème citronnée.",
+     "allergens": "A,D,K,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "45. Spaghetti Aglio Olio e Peperoncino",
+     "desc": "À l'huile d'olive, ail, tomates cerises et piment.",
+     "allergens": "A",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "46. Spaghetti alla Carbonara",
+     "desc": "Avec pancetta croustillante et œuf, à l'italienne, sans crème.",
+     "allergens": "A,B,3",
+     "price": "16,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Specialità al forno (Au four)",
+   "items": [
+    {
+     "name": "50. Lasagne",
+     "desc": "Lasagne traditionnelle, sauce bolognaise et béchamel, gratinée à la mozzarella.",
+     "allergens": "A,D",
+     "price": "16,90 €",
+     "tags": ""
+    },
+    {
+     "name": "51. Cannelloni Ripieni con Spinaci",
+     "desc": "Rouleaux de pâtes farcis ricotta-épinards, sauce tomate-béchamel, gratinés à la mozzarella.",
+     "allergens": "A,D",
+     "price": "16,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pasta al Tartufo fresco (Truffe fraîche)",
+   "items": [
+    {
+     "name": "337. Taglioline al Tartufo",
+     "desc": "Tagliolini au beurre et truffe fraîche.",
+     "allergens": "D",
+     "price": "21,90 €",
+     "tags": ""
+    },
+    {
+     "name": "338. Taglioline al Tartufo con Salvia e Noce",
+     "desc": "Tagliolini au beurre, sauge, noix et truffe fraîche.",
+     "allergens": "D,L",
+     "price": "23,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pizze cotte su pietra (Pizzas au feu de pierre)",
+   "items": [
+    {
+     "name": "80. Pizza alla Margherita",
+     "desc": "Sauce tomate maison et mozzarella.",
+     "allergens": "A,D",
+     "price": "11,50 €",
+     "tags": ""
+    },
+    {
+     "name": "81. Pizza al Salame",
+     "desc": "Sauce tomate maison, mozzarella et salami.",
+     "allergens": "A,D,3,6",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "82. Pizza al Prosciutto",
+     "desc": "Sauce tomate maison, mozzarella et jambon cuit.",
+     "allergens": "A,D,3,6,10",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "83. Pizza ai Funghi",
+     "desc": "Sauce tomate maison, mozzarella et champignons frais.",
+     "allergens": "A,D",
+     "price": "13,50 €",
+     "tags": ""
+    },
+    {
+     "name": "84. Pizza Capricciosa",
+     "desc": "Sauce tomate maison, mozzarella, jambon cuit, artichauts, champignons et olives.",
+     "allergens": "A,D,1,3,6,10",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "85. Pizza Pazza",
+     "desc": "Sauce tomate maison, mozzarella, salami, oignons, champignons frais, câpres et piments forts.",
+     "allergens": "A,D,1,3,6",
+     "price": "15,90 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "86. Pizza con Tonno e Cipolla",
+     "desc": "Sauce tomate maison, mozzarella, thon et oignons.",
+     "allergens": "A,C,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "87. Pizza alla Alex",
+     "desc": "Sauce tomate maison, mozzarella, champignons, oignons, jaune d'œuf et piments forts.",
+     "allergens": "A,B,D,3,6,10",
+     "price": "15,90 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "88. Pizza Quattro Stagioni",
+     "desc": "Sauce tomate maison, mozzarella, jambon cuit, salami, champignons, poivrons et thon.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "89. Pizza ai Prati Verdi",
+     "desc": "Sauce tomate maison, mozzarella, gorgonzola et épinards.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "90. Pizza alla Gaetano",
+     "desc": "Sauce tomate maison, mozzarella, jambon cuit, anchois, câpres, tranches de tomate fraîche et basilic.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "91. Pizza ai Frutti di Mare",
+     "desc": "Sauce tomate maison, mozzarella, fruits de mer et ail.",
+     "allergens": "A,D,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "92. Pizza Frà Diavolo al Salamino",
+     "desc": "Sauce tomate maison, mozzarella, ail, oignons, piments forts et salami piquant.",
+     "allergens": "A,D,3,6",
+     "price": "16,50 €",
+     "tags": "spicy"
+    },
+    {
+     "name": "93. Pizza alla Buona Sera",
+     "desc": "Sauce tomate maison, mozzarella di bufala, gorgonzola, ricotta, jambon San Daniele, Culatello et tomates cerises fraîches.",
+     "allergens": "A,D,3",
+     "price": "18,90 €",
+     "tags": ""
+    },
+    {
+     "name": "94. Pizza Vegetariana",
+     "desc": "Sauce tomate maison, mozzarella, brocolis, épinards, artichauts et aubergine.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": "vegetarian"
+    },
+    {
+     "name": "95. Pizza con Scampi",
+     "desc": "Sauce tomate maison, mozzarella, ail, oignons et scampi.",
+     "allergens": "A,D,K",
+     "price": "17,50 €",
+     "tags": ""
+    },
+    {
+     "name": "96. Pizza Rucola",
+     "desc": "Sauce tomate maison, mozzarella, roquette et copeaux de parmesan, touche de balsamique.",
+     "allergens": "A,D,N",
+     "price": "16,50 €",
+     "tags": ""
+    },
+    {
+     "name": "97. Pizza Hawaii",
+     "desc": "Sauce tomate maison, mozzarella, jambon cuit et ananas.",
+     "allergens": "A,D,3,6,10",
+     "price": "14,90 €",
+     "tags": ""
+    },
+    {
+     "name": "98. Pizza ai Quattro Formaggi",
+     "desc": "Sauce tomate maison et quatre fromages (mozzarella, ricotta, gorgonzola, parmesan).",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "99. Pizza alla Greca",
+     "desc": "Sauce tomate maison, mozzarella, épinards, poivrons, oignons et feta.",
+     "allergens": "A,D",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "100. Pizza Primavera",
+     "desc": "Sauce tomate maison, mozzarella, tranches de tomate fraîche et basilic.",
+     "allergens": "A,D",
+     "price": "13,90 €",
+     "tags": ""
+    },
+    {
+     "name": "101. Pizza San Daniele",
+     "desc": "Sauce tomate maison, mozzarella et jambon San Daniele.",
+     "allergens": "A,D,3",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "102. Pizza Bufala e Culatello",
+     "desc": "Sauce tomate maison, mozzarella di bufala et Culatello (jambon affiné).",
+     "allergens": "A,D,3",
+     "price": "17,90 €",
+     "tags": ""
+    },
+    {
+     "name": "103. Pizza con Spinaci e Ricotta",
+     "desc": "Sauce tomate maison, mozzarella, épinards et ricotta.",
+     "allergens": "A,D",
+     "price": "14,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Calzone",
+   "items": [
+    {
+     "name": "104. Calzone Gran Sasso",
+     "desc": "Sauce tomate maison, mozzarella, salami, champignons et brocolis.",
+     "allergens": "A,D,3,6",
+     "price": "15,90 €",
+     "tags": ""
+    },
+    {
+     "name": "106. Calzone Levante",
+     "desc": "Sauce tomate maison, mozzarella, jambon, champignons, poivrons et olives.",
+     "allergens": "A,D,1,3,6,10",
+     "price": "15,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Scaloppine di Vitello e Pollo (Veau et Poulet)",
+   "items": [
+    {
+     "name": "110. Scaloppine a Piacere",
+     "desc": "Médaillons de veau, sauce au choix : vin blanc, citron ou Marsala. + Accompagnement.",
+     "allergens": "A,N",
+     "price": "26,90 €",
+     "tags": ""
+    },
+    {
+     "name": "112. Saltimbocca alla Romana",
+     "desc": "Médaillons de veau, jambon San Daniele, sauce sauge et vin blanc. + Accompagnement.",
+     "allergens": "A,N",
+     "price": "27,90 €",
+     "tags": ""
+    },
+    {
+     "name": "113. Paillard alla Griglia con Scaglie di Parmigiano",
+     "desc": "Escalope de veau grillée sur lit de roquette, copeaux de parmesan et crème balsamique. Accompagnement : pommes de terre au romarin.",
+     "allergens": "D",
+     "price": "26,50 €",
+     "tags": ""
+    },
+    {
+     "name": "114. Petto di Pollo alla Griglia",
+     "desc": "Filet de poulet grillé. + Accompagnement.",
+     "allergens": "",
+     "price": "19,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Manzo (Bœuf)",
+   "items": [
+    {
+     "name": "116. Filetto ai Funghi 200 g",
+     "desc": "Filet de bœuf aux champignons variés, sauce crémeuse. + Accompagnement.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "117. Filetto al Pepe Verde 200 g",
+     "desc": "Filet de bœuf, sauce au poivre vert. + Accompagnement.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "118. Filetto al Gorgonzola 200 g",
+     "desc": "Filet de bœuf, sauce gorgonzola. + Accompagnement.",
+     "allergens": "D",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "139. Filetto alla Griglia 200 g",
+     "desc": "Filet de bœuf grillé. + Accompagnement.",
+     "allergens": "",
+     "price": "28,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Pesce (Poisson)",
+   "items": [
+    {
+     "name": "120. Frittura di Scampi e Calamari",
+     "desc": "Scampi et calamars frits. + Salade en accompagnement.",
+     "allergens": "A,C,K",
+     "price": "24,50 €",
+     "tags": ""
+    },
+    {
+     "name": "121. Calamari alla Griglia",
+     "desc": "Calamars grillés à l'ail et à l'huile d'olive. + Salade en accompagnement.",
+     "allergens": "C,K",
+     "price": "20,90 €",
+     "tags": ""
+    },
+    {
+     "name": "123. Calamari alla Livornese",
+     "desc": "Calamars aux câpres, olives et herbes, sauce tomate. + Salade en accompagnement.",
+     "allergens": "C,1,K,10",
+     "price": "21,90 €",
+     "tags": ""
+    },
+    {
+     "name": "124. Gamberoni alla Griglia",
+     "desc": "Quatre grosses crevettes grillées (avec tête et carapace). + Salade en accompagnement.",
+     "allergens": "K",
+     "price": "30,50 €",
+     "tags": ""
+    },
+    {
+     "name": "127. Gamberoni in Salsa Aioli",
+     "desc": "Scampi sautés, sauce crème à l'ail. + Salade en accompagnement.",
+     "allergens": "K,3",
+     "price": "26,90 €",
+     "tags": ""
+    },
+    {
+     "name": "128. Filetto di Rombo Gratinato in Camicia",
+     "desc": "Filet de turbot gratiné, croûte de pommes de terre. + Salade en accompagnement.",
+     "allergens": "C,3",
+     "price": "29,90 €",
+     "tags": ""
+    },
+    {
+     "name": "130. Grigliata di Pesce Misto",
+     "desc": "Assiette de poisson grillé, dorade, calamars et scampi. + Salade et pommes de terre.",
+     "allergens": "C,K,3",
+     "price": "33,90 €",
+     "tags": ""
+    },
+    {
+     "name": "131. Salmone alla Mediterranea",
+     "desc": "Filet de saumon, sauce vin blanc aux herbes, câpres et tomates cerises. + Salade et pommes de terre.",
+     "allergens": "C,D",
+     "price": "28,90 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Dolci (Desserts)",
+   "items": [
+    {
+     "name": "241. Tartufo",
+     "desc": "Glace chocolat et zabaione, saupoudrée de cacao.",
+     "allergens": "D,L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "243. Tiramisù",
+     "desc": "Biscuits imbibés de café, crème au mascarpone et cacao.",
+     "allergens": "A,D",
+     "price": "8,90 €",
+     "tags": ""
+    },
+    {
+     "name": "244. Cassata Siciliana",
+     "desc": "Dessert glacé sicilien à la crème fouettée, semi-congelé.",
+     "allergens": "D",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "245. Pannacotta",
+     "desc": "Panna cotta maison, sauce caramel.",
+     "allergens": "D",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "246. Crème Brûlée alla Noce di Cocco",
+     "desc": "Crème brûlée à la noix de coco, croûte caramélisée.",
+     "allergens": "L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "247. Soufflé al Cioccolato",
+     "desc": "Soufflé chaud au chocolat.",
+     "allergens": "B,D,L",
+     "price": "8,50 €",
+     "tags": ""
+    },
+    {
+     "name": "248. Nougat Tiramisù",
+     "desc": "Tiramisù à la crème de mascarpone et nougat.",
+     "allergens": "A,D,L",
+     "price": "8,90 €",
+     "tags": ""
+    },
+    {
+     "name": "249. Affogato",
+     "desc": "Espresso servi avec une boule de glace vanille.",
+     "allergens": "D",
+     "price": "6,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Bevande Calde (Boissons chaudes)",
+   "items": [
+    {
+     "name": "Espresso",
+     "desc": "Espresso.",
+     "allergens": "",
+     "price": "3,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Coffee",
+     "desc": "Café filtre.",
+     "allergens": "",
+     "price": "3,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Tea (various sorts)",
+     "desc": "Thé (plusieurs sortes).",
+     "allergens": "",
+     "price": "3,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Affogato",
+     "desc": "Espresso avec une boule de glace.",
+     "allergens": "D",
+     "price": "6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Cappuccino",
+     "desc": "Cappuccino.",
+     "allergens": "D",
+     "price": "4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Latte Macchiato",
+     "desc": "Latte macchiato.",
+     "allergens": "D",
+     "price": "4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Corretto Amaretto",
+     "desc": "Espresso à l'amaretto.",
+     "allergens": "",
+     "price": "4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Espresso Doppio",
+     "desc": "Double espresso.",
+     "allergens": "",
+     "price": "5,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Succhi di Frutta (Jus de fruits)",
+   "items": [
+    {
+     "name": "Orange Juice",
+     "desc": "Jus d'orange.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Apple Juice",
+     "desc": "Jus de pomme.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Passion Fruit Nectar",
+     "desc": "Nectar de fruit de la passion.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Banana Nectar",
+     "desc": "Nectar de banane.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Cherry Nectar",
+     "desc": "Nectar de cerise.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Spritzers (Apple / Orange / Passion Fruit / Cherry / Rhubarb)",
+     "desc": "Spritz aux fruits (pomme, orange, fruit de la passion, cerise, rhubarbe).",
+     "allergens": "",
+     "price": "0,2 l 2,90 € · 0,4 l 4,80 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Birra (Bière)",
+   "items": [
+    {
+     "name": "Angelo Poretti",
+     "desc": "Bière pression italienne.",
+     "allergens": "A",
+     "price": "0,25 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Carlsberg",
+     "desc": "Bière pression.",
+     "allergens": "A",
+     "price": "0,3 l 4,50 € · 0,5 l 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Hefe Weizen Duckstein",
+     "desc": "Bière de blé pression.",
+     "allergens": "A",
+     "price": "0,3 l 4,50 € · 0,5 l 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Alsterwasser",
+     "desc": "Mélange bière et limonade.",
+     "allergens": "A",
+     "price": "0,3 l 4,00 € · 0,5 l 6,30 €",
+     "tags": ""
+    },
+    {
+     "name": "Peroni (bottled)",
+     "desc": "Bière italienne en bouteille.",
+     "allergens": "A",
+     "price": "0,33 l · 4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Non-Alcoholic Wheat Beer",
+     "desc": "Bière de blé sans alcool.",
+     "allergens": "A",
+     "price": "0,5 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Dark Wheat Beer",
+     "desc": "Bière de blé brune.",
+     "allergens": "A",
+     "price": "0,5 l · 6,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Holsten Non-Alcoholic",
+     "desc": "Bière sans alcool.",
+     "allergens": "A",
+     "price": "0,33 l · 4,50 €",
+     "tags": ""
+    },
+    {
+     "name": "Malt Beer",
+     "desc": "Bière de malt.",
+     "allergens": "A",
+     "price": "0,33 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Bionade (Herbal / Elderflower)",
+     "desc": "Bionade herbes ou fleur de sureau.",
+     "allergens": "",
+     "price": "0,33 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "S. Pellegrino (small)",
+     "desc": "Petite bouteille d'eau minérale.",
+     "allergens": "",
+     "price": "0,25 l · 3,50 €",
+     "tags": ""
+    },
+    {
+     "name": "S. Pellegrino (large)",
+     "desc": "Grande bouteille d'eau minérale.",
+     "allergens": "",
+     "price": "0,75 l · 8,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Bevande Fredde (Boissons froides)",
+   "items": [
+    {
+     "name": "Pepsi Cola",
+     "desc": "Pepsi Cola.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Pepsi Cola Zero",
+     "desc": "Pepsi Cola Zero.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Orange Soda",
+     "desc": "Limonade à l'orange.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Lemon Soda",
+     "desc": "Limonade au citron.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Spezi (Cola-Orange)",
+     "desc": "Spezi (mélange cola-orange).",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Bitter Lemon",
+     "desc": "Bitter lemon.",
+     "allergens": "",
+     "price": "0,2 l 3,00 € · 0,4 l 5,30 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vini Rossi (Vins rouges)",
+   "items": [
+    {
+     "name": "Negroamaro",
+     "desc": "Souple et équilibré, finale douce.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Syrah",
+     "desc": "Souple et corsé, notes de baies mûres.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Primitivo Salento",
+     "desc": "Sec, corsé et bien structuré.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Lambrusco",
+     "desc": "Vin rouge pétillant et doux.",
+     "allergens": "N",
+     "price": "0,2 l 7,00 € · 0,5 l 13,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vini Bianchi (Vins blancs)",
+   "items": [
+    {
+     "name": "Frascati",
+     "desc": "Vin blanc sec et vif.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Pinot Grigio",
+     "desc": "Sec, bouquet fruité délicat.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Frizzantino",
+     "desc": "Vin blanc doux et légèrement pétillant.",
+     "allergens": "N",
+     "price": "0,2 l 7,00 € · 0,5 l 13,50 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Vino Rosato (Vin rosé)",
+   "items": [
+    {
+     "name": "Rosato del Salento",
+     "desc": "Sec et fruité.",
+     "allergens": "N",
+     "price": "0,2 l 7,90 € · 0,5 l 15,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Aquavino (Vin à l'eau gazeuse)",
+   "items": [
+    {
+     "name": "Weinschorle",
+     "desc": "Vin blanc, rosé ou rouge avec eau gazeuse.",
+     "allergens": "N",
+     "price": "0,2 l · 7,00 €",
+     "tags": ""
+    }
+   ]
+  },
+  {
+   "name": "Liquori e Distillati (Spiritueux)",
+   "items": [
+    {
+     "name": "Amaretto",
+     "desc": "Amaretto.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Averna",
+     "desc": "Averna.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Amaro del Capo",
+     "desc": "Amaro del Capo.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Ramazzotti",
+     "desc": "Ramazzotti.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Montenegro",
+     "desc": "Montenegro.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Cynar",
+     "desc": "Cynar.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Fernet (Branca or Menta)",
+     "desc": "Fernet (Branca ou Menta).",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Bianca",
+     "desc": "Grappa blanche.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Reinsorte",
+     "desc": "Grappa monocépage.",
+     "allergens": "",
+     "price": "0,02 l · 5,80 €",
+     "tags": ""
+    },
+    {
+     "name": "Grappa Spezial",
+     "desc": "Grappa spéciale (à partir de).",
+     "allergens": "",
+     "price": "0,02 l · ab 6,90 €",
+     "tags": ""
+    },
+    {
+     "name": "Limoncello",
+     "desc": "Limoncello.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Sambuca",
+     "desc": "Sambuca.",
+     "allergens": "",
+     "price": "0,02 l · 4,00 €",
+     "tags": ""
+    },
+    {
+     "name": "Vecchia Romagna Brandy",
+     "desc": "Brandy Vecchia Romagna.",
+     "allergens": "",
+     "price": "0,02 l · 4,90 €",
+     "tags": ""
+    }
+   ]
+  }
+ ]
+}
