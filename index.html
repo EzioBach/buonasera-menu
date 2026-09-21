@@ -35,13 +35,13 @@
     .hero-center h1{ font-size:1.7rem; letter-spacing:1.5px; }
   }
 
-  .info-bar{ background:var(--card); border-bottom:1px solid var(--border); padding:12px 16px;
-    display:flex; justify-content:center; gap:24px; flex-wrap:wrap; font-size:0.8rem; color:var(--muted);
-    position:sticky; top:0; z-index:20; box-shadow:0 2px 6px rgba(0,0,0,0.04); }
-  .info-bar strong{ color:var(--brand-red); }
+.sticky-header{ position:sticky; top:0; z-index:20; box-shadow:0 2px 6px rgba(0,0,0,0.04); }
 
-  /* ===== Vertical accessible category menu (replaces horizontal scroll strip) ===== */
-  .cat-menu-wrap{ position:sticky; top:41px; z-index:19; background:var(--bg); border-bottom:1px solid var(--border); }
+.info-bar{ background:var(--card); border-bottom:1px solid var(--border); padding:12px 16px;
+  display:flex; justify-content:center; gap:24px; flex-wrap:wrap; font-size:0.8rem; color:var(--muted); }
+.info-bar strong{ color:var(--brand-red); }
+
+.cat-menu-wrap{ background:var(--bg); border-bottom:1px solid var(--border); }
   .cat-toggle{
     width:100%; display:flex; align-items:center; justify-content:space-between; gap:10px;
     background:var(--card); border:none; border-top:1px solid var(--border); padding:14px 16px;
@@ -125,18 +125,20 @@
   </div>
 </header>
 
-<div class="info-bar">
-  <span><strong>Rosenstraße 4</strong>, 21335 Lüneburg</span>
-  <span>Tel. 04131–37275</span>
-  <span id="hours"></span>
-</div>
+<div class="sticky-header">
+  <div class="info-bar">
+    <span><strong>Rosenstraße 4</strong>, 21335 Lüneburg</span>
+    <span>Tel. 04131–37275</span>
+    <span id="hours"></span>
+  </div>
 
-<div class="cat-menu-wrap">
-  <button class="cat-toggle" id="cat-toggle" aria-expanded="false" aria-controls="cat-list">
-    <span id="cat-toggle-label">Kategorien</span>
-    <span class="chevron" aria-hidden="true">▾</span>
-  </button>
-  <ul class="cat-list" id="cat-list" role="menu"></ul>
+  <div class="cat-menu-wrap">
+    <button class="cat-toggle" id="cat-toggle" aria-expanded="false" aria-controls="cat-list">
+      <span id="cat-toggle-label">Kategorien</span>
+      <span class="chevron" aria-hidden="true">▾</span>
+    </button>
+    <ul class="cat-list" id="cat-list" role="menu"></ul>
+  </div>
 </div>
 
 <main id="menu-root">
