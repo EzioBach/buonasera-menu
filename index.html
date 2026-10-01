@@ -313,7 +313,7 @@ render(savedLang && SUPPORTED.includes(savedLang) ? savedLang : detectDefaultLan
 <a class="resbtn" id="resbtn" href="#">Tisch reservieren</a>
 <script>
 (function(){
-  var RESERVATION_URL="https://eziobach.github.io/buonasera-reservierung/";   // <- Adresse der Reservierungsseite eintragen
+  var RESERVATION_URL="https://eziobach.github.io/buonasera-reservierung";   // <- Adresse der Reservierungsseite eintragen
   var L={de:"Tisch reservieren",en:"Book a table",it:"Prenota un tavolo",fr:"Réserver une table",es:"Reservar mesa",sv:"Boka bord",da:"Book bord"};
   function upd(){
     var l=(document.documentElement.lang||"de").slice(0,2).toLowerCase(); if(!L[l])l="de";
