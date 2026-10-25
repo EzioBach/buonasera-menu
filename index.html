@@ -331,5 +331,24 @@ render(savedLang && SUPPORTED.includes(savedLang) ? savedLang : detectDefaultLan
   new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
 })();
 </script>
+<script>
+(function(){
+  var HOME="https://www.buona-sera.de";
+  var H={de:"← Startseite",en:"← Home",it:"← Home",fr:"← Accueil",es:"← Inicio",sv:"← Startsida",da:"← Forside"};
+  var nav=document.querySelector(".hero-links"); if(!nav)return;
+  var st=document.createElement("style");
+  st.textContent=".homebtn{background:rgba(255,255,255,0.12);color:#fff;border:1px solid rgba(255,255,255,0.35);padding:6px 14px;border-radius:20px;font-size:0.78rem;font-family:'Questrial',sans-serif;letter-spacing:0.5px;text-decoration:none;display:inline-block;transition:all .15s ease}.homebtn:hover{background:rgba(255,255,255,0.22)}";
+  document.head.appendChild(st);
+  var a=document.createElement("a"); a.className="homebtn"; a.href=HOME; nav.insertBefore(a,nav.firstChild);
+  var logo=document.querySelector(".hero-logo img");
+  if(logo&&logo.parentNode&&logo.parentNode.tagName!=="A"){
+    var l=document.createElement("a"); l.href=HOME; l.setAttribute("aria-label","Startseite");
+    logo.parentNode.insertBefore(l,logo); l.appendChild(logo);
+  }
+  function upd(){var k=(document.documentElement.lang||"de").slice(0,2).toLowerCase(); a.textContent=H[k]||H.de;}
+  upd();
+  new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
+})();
+</script>
 </body>
 </html>
