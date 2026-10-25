@@ -313,11 +313,19 @@ render(savedLang && SUPPORTED.includes(savedLang) ? savedLang : detectDefaultLan
 <a class="resbtn" id="resbtn" href="#">Tisch reservieren</a>
 <script>
 (function(){
-  var RESERVATION_URL="https://eziobach.github.io/buonasera-reservierung";   // <- Adresse der Reservierungsseite eintragen
+  var RESERVATION_URL="https://reservierung.buona-sera.de";
+  var ORDER_URL="https://www.lieferando.de/speisekarte/ristorante-buona-sera-lneburg";
   var L={de:"Tisch reservieren",en:"Book a table",it:"Prenota un tavolo",fr:"Réserver une table",es:"Reservar mesa",sv:"Boka bord",da:"Book bord"};
+  var O={de:"Online bestellen",en:"Order online",it:"Ordina online",fr:"Commander en ligne",es:"Pedir en línea",sv:"Beställ online",da:"Bestil online"};
+  var hero=document.getElementById("resbtn-hero"), ob=null;
+  if(hero&&ORDER_URL.indexOf("http")===0){
+    ob=document.createElement("a"); ob.id="orderbtn-hero"; ob.className="hero-cta";
+    ob.style.marginLeft="12px"; ob.href=ORDER_URL; hero.insertAdjacentElement("afterend",ob);
+  }
   function upd(){
     var l=(document.documentElement.lang||"de").slice(0,2).toLowerCase(); if(!L[l])l="de";
     ["resbtn","resbtn-hero"].forEach(function(id){var a=document.getElementById(id); if(a){a.textContent=L[l];a.href=RESERVATION_URL;}});
+    if(ob)ob.textContent=O[l];
   }
   upd();
   new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
