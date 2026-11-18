@@ -330,5 +330,123 @@ render(savedLang && SUPPORTED.includes(savedLang) ? savedLang : detectDefaultLan
   new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
 })();
 </script>
+<style>
+.dicebtn{position:fixed;right:14px;bottom:84px;z-index:998;background:#fff;color:#2b2320;border:1px solid #be9f6c;padding:11px 16px;font:600 .74rem 'Raleway',sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);border-radius:30px}
+.dicebtn:hover{background:#be9f6c;color:#fff}
+.dice-ov{position:fixed;inset:0;z-index:1200;background:rgba(10,8,8,.72);display:none;align-items:flex-start;justify-content:center;overflow:auto;padding:18px 12px}
+.dice-ov.show{display:flex}
+.dice-box{background:#faf6ef;color:#2b2320;max-width:560px;width:100%;border:1px solid #be9f6c;padding:24px 20px 22px;position:relative;margin:auto}
+.dice-x{position:absolute;top:8px;right:12px;background:none;border:none;font-size:1.7rem;cursor:pointer;color:#7a6f64}
+.dice-box h2{font-family:'Raleway',sans-serif;font-weight:600;font-size:1.25rem;letter-spacing:.04em;text-align:center;margin:4px 26px 6px}
+.dice-sub{text-align:center;color:#7a6f64;font-size:.9rem;margin-bottom:14px}
+.dice-face{font-size:3.4rem;text-align:center;line-height:1;margin:6px 0}
+.dice-face.spin{animation:dspin .5s linear infinite}
+@keyframes dspin{to{transform:rotate(360deg)}}
+.dice-roll{display:block;margin:6px auto 14px;background:#dc1930;color:#fff;border:1px solid #be9f6c;padding:13px 28px;font:600 .8rem 'Raleway',sans-serif;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+.dice-roll:hover{background:#b5132a}
+.dice-or{text-align:center;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:#7a6f64;margin:4px 0 8px}
+.dice-chips{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-bottom:12px}
+.dice-chip{border:1px solid #be9f6c;background:#fff;color:#2b2320;padding:7px 13px;border-radius:20px;font:500 .8rem 'Raleway',sans-serif;cursor:pointer}
+.dice-chip.on{background:#be9f6c;color:#fff}
+.dice-city{text-align:center;margin:12px 0 4px;font-size:1.6rem;font-weight:600;letter-spacing:.06em;color:#dc1930}
+.dice-blurb{text-align:center;color:#7a6f64;font-size:.92rem;margin-bottom:12px}
+.dice-row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid #e8ddc9}
+.dice-slot{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#be9f6c;font-weight:600}
+.dice-dish{font-weight:600}
+.dice-desc{font-size:.84rem;color:#7a6f64}
+.dice-price{white-space:nowrap;font-weight:600}
+.dice-note{font-size:.76rem;color:#7a6f64;text-align:center;margin-top:12px}
+</style>
+<script>
+(function(){
+  var CITIES={
+    napoli:{n:{de:"Neapel",en:"Naples",it:"Napoli"},b:{de:"Heimat der Pizza, der Sonne und des perfekten Espresso.",en:"Home of pizza, sunshine and the perfect espresso.",it:"Patria della pizza, del sole e del caffè perfetto."},
+      p:[["starter","9"],["main","80"],["dessert","249"],["wine","@Greco di Tufo (Kampanien)"],["digestivo","Limoncello"]]},
+    roma:{n:{de:"Rom",en:"Rome",it:"Roma"},b:{de:"Die Ewige Stadt: kräftig, schlicht und unwiderstehlich.",en:"The Eternal City: bold, simple and irresistible.",it:"La Città Eterna: sapori decisi, semplici e irresistibili."},
+      p:[["starter","7"],["main","46"],["main","112"],["dessert","241"],["wine","Frascati"]]},
+    venezia:{n:{de:"Venedig",en:"Venice",it:"Venezia"},b:{de:"Ein Aperitif am Kanal, danach Fisch und Reis aus der Lagune.",en:"An aperitivo by the canal, then fish and rice from the lagoon.",it:"Un aperitivo sul canale, poi pesce e riso dalla laguna."},
+      p:[["aperitivo","Bacio Veneziano"],["starter","3"],["main","24"],["dessert","243"],["wine","Pinot Grigio"]]},
+    milano:{n:{de:"Mailand",en:"Milan",it:"Milano"},b:{de:"Aperitivo-Hauptstadt: Campari, Risotto und feines Kalbfleisch.",en:"Aperitivo capital: Campari, risotto and fine veal.",it:"Capitale dell'aperitivo: Campari, risotto e vitello."},
+      p:[["aperitivo","Campari Spritz"],["starter","1"],["main","26"],["main","113"],["dessert","245"],["wine","@Lugana I Frati DOC (Lombardei)"],["digestivo","Ramazzotti"]]},
+    torino:{n:{de:"Turin",en:"Turin",it:"Torino"},b:{de:"Piemont: Vermut, Trüffel und elegante Klassiker.",en:"Piedmont: vermouth, truffles and elegant classics.",it:"Piemonte: vermut, tartufo e classici eleganti."},
+      p:[["aperitivo","Martini"],["starter","2"],["main","337"],["dessert","245"],["wine","@Gavi del Comune di Gavi DOC (Piemont)"]]},
+    bologna:{n:{de:"Bologna",en:"Bologna",it:"Bologna"},b:{de:"La Grassa: Pasta, Ragù und Genuss ohne Eile.",en:"La Grassa, the rich one: pasta, ragù and unhurried pleasure.",it:"La Grassa: pasta, ragù e piacere senza fretta."},
+      p:[["starter","11"],["main","50"],["main","34"],["dessert","243"],["wine","Lambrusco"],["digestivo","Montenegro"]]},
+    firenze:{n:{de:"Florenz",en:"Florence",it:"Firenze"},b:{de:"Toskana: Steinpilze, Pappardelle und ein Steak vom Grill.",en:"Tuscany: porcini, pappardelle and a grilled steak.",it:"Toscana: porcini, pappardelle e bistecca alla griglia."},
+      p:[["starter","14"],["main","28"],["main","139"],["dessert","249"],["wine","Montepulciano"],["digestivo","Grappa Bianca"]]},
+    palermo:{n:{de:"Palermo",en:"Palermo",it:"Palermo"},b:{de:"Sizilien: Meer, Sonne und süße Verführung.",en:"Sicily: sea, sun and sweet temptation.",it:"Sicilia: mare, sole e dolce tentazione."},
+      p:[["starter","10"],["main","43"],["dessert","244"],["wine","@Il Salinaro Grillo DOC (Sizilien)"],["digestivo","Averna"]]},
+    bari:{n:{de:"Bari (Apulien)",en:"Bari (Puglia)",it:"Bari (Puglia)"},b:{de:"Apulien: Burrata, Orecchiette und kräftiger Süden im Glas.",en:"Puglia: burrata, orecchiette and the bold south in your glass.",it:"Puglia: burrata, orecchiette e il Sud nel bicchiere."},
+      p:[["starter","4"],["main","37"],["dessert","246"],["wine","Primitivo Salento"],["wine","Rosato del Salento"]]}
+  };
+  var KEYS=Object.keys(CITIES);
+  var UI={
+    de:{btn:"Unentschlossen?",title:"Wohin geht Ihre kulinarische Reise?",sub:"Würfeln Sie eine Stadt oder wählen Sie selbst – wir stellen Ihnen ein passendes Menü zusammen.",roll:"Würfeln",again:"Nochmal würfeln",or:"oder Stadt wählen",wk:"Weinkarte",note:"Inspiriert von der Küche der Region – ein Spaß, keine Vorschrift. Unser Team berät Sie gern.",
+      slot:{aperitivo:"Aperitif",starter:"Vorspeise",main:"Hauptgang",dessert:"Dessert",wine:"Wein",digestivo:"Digestif"}},
+    en:{btn:"Can't decide?",title:"Where will your food journey take you?",sub:"Roll the dice for a city or pick one yourself — we'll put together a matching meal.",roll:"Roll the dice",again:"Roll again",or:"or choose a city",wk:"Wine list",note:"Inspired by the cuisine of the region — just for fun. Our team is happy to advise you.",
+      slot:{aperitivo:"Aperitivo",starter:"Starter",main:"Main course",dessert:"Dessert",wine:"Wine",digestivo:"Digestivo"}},
+    it:{btn:"Indecisi?",title:"Dove vi porta il viaggio nel gusto?",sub:"Lanciate il dado per scoprire una città o sceglietela voi: vi proponiamo un menù su misura.",roll:"Lancia il dado",again:"Lancia ancora",or:"oppure scegli una città",wk:"Carta dei vini",note:"Ispirato alla cucina della regione, per gioco. Il nostro team vi consiglia volentieri.",
+      slot:{aperitivo:"Aperitivo",starter:"Antipasto",main:"Piatto principale",dessert:"Dolce",wine:"Vino",digestivo:"Digestivo"}}
+  };
+  function lang(){var l=(document.documentElement.lang||"de").slice(0,2).toLowerCase();return MENU_DATA[l]?l:"de";}
+  function T(){return UI[lang()]||UI.en;}
+  function pick(o){var l=lang();return o[l]||o.en||o.de;}
+  function find(ref){
+    var cats=(MENU_DATA[lang()]||MENU_DATA.de).categories;
+    for(var c=0;c<cats.length;c++){var its=cats[c].items;
+      for(var k=0;k<its.length;k++){var nm=its[k].name;if(nm===ref||nm.indexOf(ref+". ")===0)return its[k];}}
+    return null;
+  }
+  function plan(key){
+    var out=[];CITIES[key].p.forEach(function(e){
+      if(e[1].charAt(0)==="@")out.push({slot:e[0],name:e[1].slice(1),desc:"",price:"",wk:true});
+      else{var it=find(e[1]);if(it)out.push({slot:e[0],name:it.name,desc:it.desc,price:it.price,wk:false});}
+    });return out;
+  }
+  window.__dicePlan=plan;
+  var cur=null,timer=null;
+  var btn=document.createElement("button");btn.className="dicebtn";btn.type="button";document.body.appendChild(btn);
+  var ov=document.createElement("div");ov.className="dice-ov";document.body.appendChild(ov);
+  function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");}
+  function chips(){return '<div class="dice-chips">'+KEYS.map(function(k){return '<button type="button" class="dice-chip'+(k===cur?' on':'')+'" data-c="'+k+'">'+esc(pick(CITIES[k].n))+'</button>';}).join("")+'</div>';}
+  function view(spin){
+    var t=T(),h='<div class="dice-box"><button class="dice-x" type="button" aria-label="x">&times;</button><h2>'+esc(t.title)+'</h2><div class="dice-sub">'+esc(t.sub)+'</div>';
+    h+='<div class="dice-face'+(spin?' spin':'')+'">🎲</div>';
+    h+='<button type="button" class="dice-roll">'+esc(cur?t.again:t.roll)+'</button>';
+    h+='<div class="dice-or">'+esc(t.or)+'</div>'+chips();
+    if(cur){
+      h+='<div class="dice-city">'+esc(pick(CITIES[cur].n))+'</div><div class="dice-blurb">'+esc(pick(CITIES[cur].b))+'</div>';
+      plan(cur).forEach(function(p){
+        h+='<div class="dice-row"><div><div class="dice-slot">'+esc(t.slot[p.slot])+'</div><div class="dice-dish">'+esc(p.name)+'</div>'+(p.desc?'<div class="dice-desc">'+esc(p.desc)+'</div>':'')+'</div><div class="dice-price">'+(p.wk?esc(t.wk):esc(p.price))+'</div></div>';
+      });
+      h+='<div class="dice-note">'+esc(t.note)+'</div>';
+    }
+    h+='</div>';ov.innerHTML=h;
+  }
+  function open(){ov.classList.add("show");view(false);}
+  function close(){ov.classList.remove("show");if(timer){clearInterval(timer);timer=null;}}
+  function roll(){
+    if(timer)return;var n=0,last=cur;
+    view(true);
+    timer=setInterval(function(){
+      n++;cur=KEYS[Math.floor(Math.random()*KEYS.length)];
+      if(n>=12){clearInterval(timer);timer=null;
+        var nx;do{nx=KEYS[Math.floor(Math.random()*KEYS.length)];}while(nx===last&&KEYS.length>1);
+        cur=nx;view(false);}
+      else view(true);
+    },90);
+  }
+  btn.addEventListener("click",open);
+  ov.addEventListener("click",function(e){
+    if(e.target===ov||e.target.closest(".dice-x"))return close();
+    if(e.target.closest(".dice-roll"))return roll();
+    var c=e.target.closest(".dice-chip");if(c){cur=c.dataset.c;view(false);}
+  });
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")close();});
+  function upd(){btn.textContent="🎲 "+T().btn;if(ov.classList.contains("show")&&!timer)view(false);}
+  upd();
+  new MutationObserver(upd).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
+})();
+</script>
 </body>
 </html>
